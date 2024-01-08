@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # This script converts audio files in specified directories to various FreeSwitch mod_native_file formats.
-#   - Supported formats: GSM, L16, PCMA, PCMU, G722, G726, G723, G729.
+#   - Supported formats: 
+#       - source: wav, mp3
+#       - destination: GSM, L16, PCMA, PCMU, G722, G726, G723, G729
 #   - It ensure that the resulted audio files has the same user and group as of the original.
 #   - Normalizing audio in the ffmpeg and sox convert stages.
 #   - Converter used: sox, ffmpeg, astconv

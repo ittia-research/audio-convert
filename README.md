@@ -2,6 +2,9 @@
 1. Docker image packed with audio convert software for VOIP, general audio convert, etc.
 2. Scripts for related tasks.
 
+## Todo
+- [ ] freeswitch_audio_prepare.sh accept folder path as argument
+
 ## Components
 ### Converter
 - astconv
